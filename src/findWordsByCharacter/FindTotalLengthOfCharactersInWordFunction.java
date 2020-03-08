@@ -35,7 +35,7 @@ public class FindTotalLengthOfCharactersInWordFunction {
 				 }
 			 }
 			 
-			 // If the exact temp count is equal to the word length, add the length to the total length
+			 // Only add the temp count to total length when letters count are exact of the current word
 			 if(eachElementCount == word.length()){
 				 totalLength += eachElementCount;
 			 }
